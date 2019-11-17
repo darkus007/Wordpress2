@@ -7,6 +7,7 @@ html
     font-family: 'Roboto', sans-serif;
 
 .container
+    position: relative
     margin: 0 auto
     width: 1140px
 
@@ -122,3 +123,30 @@ html
         letter-spacing: normal
         text-align: center
         color: #4a4a4a
+
+.optimization
+    min-height: 550px
+    &_item
+        position: absolute
+        right: 0px
+        padding: 102px 0 107px 0
+        width: 750px
+    &_header
+        font-size: 30px
+        font-weight: 900
+        text-align: center
+        text-transform: uppercase
+        color: #299cbd
+    &_descr
+        margin-top: 25px
+        font-size: 17px
+        font-weight: 300
+        text-align: justify
+        color: #4a4a4a
+        & span
+            font-weight: bold
+    &_img
+        position: absolute
+        top: 48px
+        left: -240px
+        z-index: -1
